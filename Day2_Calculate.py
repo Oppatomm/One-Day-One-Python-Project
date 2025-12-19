@@ -12,6 +12,7 @@ class Calculate :
     
 
     def run(self) :
+        print("== Calculator ==")
         try :
             a = float(input("Enter the first number : "))
             b = float(input("Enter the second number : "))
