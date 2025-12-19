@@ -7,6 +7,7 @@ class Temperature_converter :
         return (fahrenheit - 32) * 5/9
 
     def run(self) :
+        print("== Temperature Converter ==")
         try :
             choice = int(input("Select the conversion type : \n" \
                         "1. Celsius to Fahrenheit\n" \
